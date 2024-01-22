@@ -1,0 +1,27 @@
+[project]
+name = "moth__beyond"
+version = "0.10.0"
+version = "0.10.1"
+authors = [{name = "moth__beyond", email = "effective279@gmail.com"}]
+description = "Twitter GraphQL and Search API implementation with SNScrape data models"
+readme = "readme.md"
+requires-python = ">=3.10"
+keywords = ["twitter", "scrape", "scrapper", "api", "snscrape"]
+license = {text = "MIT"}
+classifiers = [
+  'Development Status :: 4 - Beta',
+  'License :: OSI Approved :: MIT License',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.12',
+]
+dependencies = [
+  "aiosqlite>=0.17.0",
+  "fake-useragent>=1.4.0",
+  "httpx>=0.24.0",
+  "loguru>=0.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pyright>=1.1.344",
